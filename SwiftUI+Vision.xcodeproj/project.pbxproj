@@ -11,6 +11,10 @@
 		DFB474042B47E0ED0032441E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB474032B47E0ED0032441E /* ContentView.swift */; };
 		DFB474062B47E0EE0032441E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB474052B47E0EE0032441E /* Assets.xcassets */; };
 		DFB474092B47E0EE0032441E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB474082B47E0EE0032441E /* Preview Assets.xcassets */; };
+		DFB474102B47F7330032441E /* DetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4740F2B47F7330032441E /* DetectorView.swift */; };
+		DFB474122B47F8850032441E /* DetectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB474112B47F8850032441E /* DetectorViewModel.swift */; };
+		DFB474142B47FC800032441E /* VisionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB474132B47FC800032441E /* VisionClient.swift */; };
+		DFB474162B495A040032441E /* VisionRequestTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB474152B495A040032441E /* VisionRequestTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DFB474032B47E0ED0032441E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFB474052B47E0EE0032441E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB474082B47E0EE0032441E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFB4740F2B47F7330032441E /* DetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorView.swift; sourceTree = "<group>"; };
+		DFB474112B47F8850032441E /* DetectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorViewModel.swift; sourceTree = "<group>"; };
+		DFB474132B47FC800032441E /* VisionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionClient.swift; sourceTree = "<group>"; };
+		DFB474152B495A040032441E /* VisionRequestTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionRequestTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				DFB474012B47E0ED0032441E /* SwiftUI_VisionApp.swift */,
 				DFB474032B47E0ED0032441E /* ContentView.swift */,
+				DFB4740F2B47F7330032441E /* DetectorView.swift */,
+				DFB474112B47F8850032441E /* DetectorViewModel.swift */,
+				DFB474132B47FC800032441E /* VisionClient.swift */,
+				DFB474152B495A040032441E /* VisionRequestTypes.swift */,
 				DFB474052B47E0EE0032441E /* Assets.xcassets */,
 				DFB474072B47E0EE0032441E /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB474142B47FC800032441E /* VisionClient.swift in Sources */,
+				DFB474122B47F8850032441E /* DetectorViewModel.swift in Sources */,
 				DFB474042B47E0ED0032441E /* ContentView.swift in Sources */,
 				DFB474022B47E0ED0032441E /* SwiftUI_VisionApp.swift in Sources */,
+				DFB474102B47F7330032441E /* DetectorView.swift in Sources */,
+				DFB474162B495A040032441E /* VisionRequestTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
